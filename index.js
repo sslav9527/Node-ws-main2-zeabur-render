@@ -8,7 +8,7 @@ const { exec } = require('child_process');
 const { WebSocket, createWebSocketStream } = require('ws');
 const logcb = (...args) => console.log.bind(this, ...args);
 const errcb = (...args) => console.error.bind(this, ...args);
-// const projectPageURL = `https://www.google.com`;
+// const projectPageURL = `https://p01--xussl--mpj4dn5cqr2s.code.run`;
 const uuid = (process.env.UUID || 'de04add9-5c68-6bab-950c-08cd5320df37').replace(/-/g, "");
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.sslav.eu.org:5555';
 const NEZHA_KEY = process.env.NEZHA_KEY || 'QPF50E1pKPh3wLOms0';
