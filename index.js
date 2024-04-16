@@ -144,7 +144,7 @@ duplex.on('error', errcb('E1:')).pipe(this).on('error', errcb('E2:')).pipe(duple
 });
 
 // 定义访问间隔时间（2分钟）
-// const intervalInMilliseconds = 2 * 60 * 1000;
+ const intervalInMilliseconds = 2 * 60 * 1000;
 
 // async function visitProjectPage() {
 //   try {
